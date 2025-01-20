@@ -4,11 +4,14 @@ public class Ex05 {
         
         String bigNumber = "阿僧祇(あそうぎ):那由多(なゆた):不可思議(ふかしぎ):無量大数(むりょうたいすう)";
 
-        String[] bigNumbers = bigNumber.split(":");
+        String[] numbers = bigNumber.split(":");
        
 
-        
-            System.out.println(bigNumber);
+        for(String number : numbers){
+            System.out.println(number);
+
+        }
+            
 
          
          
